@@ -42,7 +42,7 @@ fun Entity.takeKnockback(attacker: Player, knockbackLevel: Short = attacker.item
 
     var i = knockbackLevel.toDouble()
 
-    if (attacker.isSprinting) i += 1.0
+    if (attacker.isSprinting) i += 0.0
 
     var newVelocity = velocity
         .withX { x -> (x / 2) - (d0 / magnitude * horizontalKnockback) }

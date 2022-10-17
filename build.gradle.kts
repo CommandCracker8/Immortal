@@ -22,12 +22,12 @@ dependencies {
 
     compileOnly("net.luckperms:api:5.4")
 
-    compileOnly("com.github.Minestom:Minestom:17ef1c2f57")
+    implementation("com.github.Minestom.Minestom:9dab3183e5")
     compileOnly("com.github.EmortalMC:Acquaintance:6987f0b3f2")
     api("com.github.EmortalMC:KStom:50b2b882fa")
-    api("com.github.emortaldev:Particable:f7212f39fb")
+    api("com.github.emortaldev.Particable:Particlable:latest")
 
-    api("com.github.EmortalMC:Rayfast:684e854a48")
+    api("com.github.emortalmc:rayfast:1.0.0")
 
     api("org.tinylog:tinylog-api-kotlin:2.5.0")
     compileOnly("org.redisson:redisson:3.17.7")
