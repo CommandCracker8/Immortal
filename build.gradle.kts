@@ -22,7 +22,7 @@ dependencies {
 
     compileOnly("net.luckperms:api:5.4")
 
-    implementation("com.github.Minestom.Minestom:9dab3183e5")
+    implementation("com.github.Minestom:Minestom:9dab3183e5")
     compileOnly("com.github.EmortalMC:Acquaintance:6987f0b3f2")
     api("com.github.EmortalMC:KStom:50b2b882fa")
     api("com.github.emortaldev.Particable:Particlable:latest")
